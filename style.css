@@ -17,7 +17,7 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center; /* يخلي القايمة في يمين الصفحة */
+  justify-content: center; 
   margin: 0;
 }
 
@@ -29,13 +29,13 @@ nav ul li a {
   color: white;
   text-decoration: none;
   padding: 8px 15px;
-  display: inline-block; /* مهم علشان الحركة تشتغل */
+  display: inline-block; 
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-  transform: translateY(-3px); /* يتحرك لفوق حركة خفيفة */
-  color: #8c3697; /* يغير اللون عند المرور */
+  transform: translateY(-3px); 
+  color: #8c3697; 
 }
 
 
@@ -43,10 +43,10 @@ main {
   padding: 20px;
 }
 .courses-title {
-  text-align: left;   /* يخلي العنوان في يمين الصفحة */
-  margin-right: 20px;  /* يبعده شوية عن الحافة */
-  margin-top: 10px;    /* يخليه فوق شوية */
-  color: #800080;      /* بنفسجي */
+  text-align: left;   
+  margin-right: 20px;  
+  margin-top: 10px;    
+  color: #800080;      
   font-size: 28px;
   font-weight: bold;
 }
@@ -57,7 +57,7 @@ main {
 }
 
 .course-section h2 {
-  color: #800080; /* بنفسجي */
+  color: #800080; 
   margin-bottom: 5px;
 }
 
@@ -79,12 +79,12 @@ main {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-  color: #000; /* النص باللون الأسود */
+  color: #000; 
 }
 
 .course-table th {
-  background: #800080; /* بنفسجي */
-  color: white;        /* العناوين باللون الأبيض */
+  background: #800080; 
+  color: white;      
   padding: 10px;
   text-align: center;
 }
@@ -94,8 +94,8 @@ main {
 }
 
 .course-table tr:hover {
-  transform: scale(1.02); /* تكبير بسيط جدًا */
-  background: #f0e6f6;    /* درجة فاتحة من البنفسجي */
+  transform: scale(1.02);
+  background: #f0e6f6;    
 }
 
 
@@ -145,7 +145,7 @@ footer {
 }
 
 .feature-box {
-  background: #800080; /* نفس البنفسجي بتاع الهيدر */
+  background: #800080; 
   color: white;
   flex: 1;
   margin: 10px;
@@ -156,7 +156,7 @@ footer {
 
 .feature-box h3 {
   margin-top: 0;
-  color: #ffffff; /* نفس اللون اللي بيظهر في الـ hover */
+  color: #ffffff; 
 }
 
 .feature-box p {
@@ -165,7 +165,7 @@ footer {
 
 .feature-box:hover {
   transform: translateY(-5px);
-  background: #4b004b; /* درجة أغمق من البنفسجي عند الـ hover */
+  background: #4b004b; 
 }
 
 @media (max-width: 768px) {
@@ -174,21 +174,21 @@ footer {
   }
 }
 h2 {
-  font-family: 'Oswald', sans-serif; /* غير الاسم حسب الخط اللي اخترته */
+  font-family: 'Oswald', sans-serif; 
   font-size: 32px;
   font-weight: bold;
-  color: #800080; /* بنفسجي متناسق مع الموقع */
+  color: #800080; 
 }
 .intro {
-  text-align: center; /* يخلي Welcome والجملة في النص */
-  margin-bottom: 30px; /* مسافة بينهم وبين البوكسات */
+  text-align: center; 
+  margin-bottom: 30px; 
 }
 
 .intro h2 {
-  font-family: 'Cairo', sans-serif; /* أو أي فونت اخترته */
+  font-family: 'Cairo', sans-serif; 
   font-size: 32px;
   font-weight: bold;
-  color: #800080; /* بنفسجي */
+  color: #800080; 
   margin-bottom: 10px;
 }
 
@@ -208,7 +208,7 @@ h2 {
 
 .add-course-title {
   text-align: center;
-  color: #800080; /* بنفسجي */
+  color: #800080; 
   margin-bottom: 20px;
   font-size: 26px;
   font-weight: bold;
@@ -235,7 +235,7 @@ h2 {
 }
 
 .add-course-form button {
-  background: #800080; /* بنفسجي */
+  background: #800080; 
   color: white;
   padding: 12px;
   border: none;
@@ -247,7 +247,7 @@ h2 {
 
 .add-course-form button:hover {
   transform: scale(1.05);
-  background: #4b004b; /* بنفسجي أغمق عند المرور */
+  background: #4b004b; 
 }
 .contact-section {
   width: 30%;
@@ -260,7 +260,7 @@ h2 {
 
 .contact-title {
   text-align: center;
-  color: #800080; /* بنفسجي */
+  color: #800080; 
   margin-bottom: 10px;
   font-size: 26px;
   font-weight: bold;
@@ -294,7 +294,7 @@ h2 {
 }
 
 .contact-form button {
-  background: #800080; /* بنفسجي */
+  background: #800080; 
   color: white;
   padding: 12px;
   border: none;
@@ -306,19 +306,19 @@ h2 {
 
 .contact-form button:hover {
   transform: scale(1.05);
-  background: #4b004b; /* بنفسجي أغمق عند المرور */
+  background: #4b004b; 
 }
 
-/* للشاشات الصغيرة (موبايل) */
+
 @media (max-width: 768px) {
   .course-table {
-    width: 100%;   /* الجدول ياخد عرض الشاشة بالكامل */
+    width: 100%;   
     font-size: 12px;
   }
 
   .add-course-section,
   .contact-section {
-    width: 90%;    /* الفورم ياخد عرض أكبر علشان يبقى واضح */
+    width: 90%;    
     padding: 15px;
   }
 
@@ -326,24 +326,16 @@ h2 {
   .add-course-form textarea,
   .contact-form input,
   .contact-form textarea {
-    font-size: 12px; /* نص أصغر شوية */
+    font-size: 12px; 
     padding: 8px;
   }
 
   .courses-title,
   .add-course-title,
   .contact-title {
-    font-size: 20px; /* العناوين أصغر */
+    font-size: 20px; 
   }
-
-  nav ul {
-    flex-direction: column; /* اللينكات في الـ navbar تبقى تحت بعض */
-    text-align: center;
-  }
-}
-
-/* للشاشات المتوسطة (تابلت) */
-@media (max-width: 1024px) {
+  @media (max-width: 1024px) {
   .course-table {
     width: 90%;
   }
@@ -353,3 +345,12 @@ h2 {
     width: 70%;
   }
 }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
